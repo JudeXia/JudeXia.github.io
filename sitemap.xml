@@ -6,7 +6,7 @@ layout: null
   <url>
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   {% for post in site.posts %}
@@ -22,7 +22,7 @@ layout: null
       {% if post.sitemap.changefreq %}
         <changefreq>{{ post.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>monthly</changefreq>
+        <changefreq>weekly</changefreq>
       {% endif %}
       {% if post.sitemap.priority %}
         <priority>{{ post.sitemap.priority }}</priority>
@@ -44,7 +44,7 @@ layout: null
     {% if page.sitemap.changefreq %}
       <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     {% else %}
-      <changefreq>monthly</changefreq>
+      <changefreq>weekly</changefreq>
     {% endif %}
     {% if page.sitemap.priority %}
       <priority>{{ page.sitemap.priority }}</priority>
