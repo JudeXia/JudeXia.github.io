@@ -1,12 +1,6 @@
 # Xiao Xia's Homepage
 
-test strikethrough ~~strike~~
-
 This is my personal homepage. Personal domain is https://xiaoxia.link . This website uses [Jekyll](http://jekyllrb.com/) and [sustain](https://github.com/biomadeira/sustain) template.
-
-## How to use it
-
-run with ` bundle exec jekyll serve `
 
 ## Copyright & License
 
