@@ -15,16 +15,18 @@ url: xiaoxia.link
 baseurl: 
 title: Xiao Xia
 author: Xiao Xia
-description: Personal blog and resume
+description: Personal homepage and resume
 avatar: profile.jpg
 email: judexia@buaa.edu.cn
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+linkedin: judexia
+google_analytics: UA-109315918-1
+
+#stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
-google_analytics: UA-69391421-1
+#disqus: username
+#github: biomadeira/sustain # username
+#twitter: username
+
 
 
 # needed for travis-ci build
