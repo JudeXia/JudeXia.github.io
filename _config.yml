@@ -1,11 +1,15 @@
 # top level stuff you probably don't need to touch
 highlighter: rouge
 markdown: kramdown
-rdiscount:
-  extensions: [smart]
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-last-modified-at
 port: 3000
 safe: true
 
