@@ -30,6 +30,7 @@ google_analytics: UA-109315918-1
 #github: biomadeira/sustain # username
 #twitter: username
 
+timezone: America/New_York
 
 
 # needed for travis-ci build
